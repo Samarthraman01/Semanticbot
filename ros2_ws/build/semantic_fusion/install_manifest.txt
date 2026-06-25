@@ -1,0 +1,16 @@
+/workspace/ros2_ws/install/semantic_fusion/lib/semantic_fusion/fusion_node
+/workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/package_run_dependencies/semantic_fusion
+/workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/parent_prefix_path/semantic_fusion
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/ament_prefix_path.sh
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/ament_prefix_path.dsv
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/path.sh
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/path.dsv
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.bash
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.sh
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.zsh
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.dsv
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/package.dsv
+/workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/packages/semantic_fusion
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/cmake/semantic_fusionConfig.cmake
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/cmake/semantic_fusionConfig-version.cmake
+/workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/package.xml

@@ -1,0 +1,15 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o[0m
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:[m[K In constructor ‘[01m[KFusionNode::FusionNode()[m[K’:
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_subscriber_[m[K’ was not declared in this scope
+   11 |     [01;31m[Kdepth_subscriber_[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:14:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_callback[m[K’ is not a member of ‘[01m[KFusionNode[m[K’
+   14 |       std::bind(&FusionNode::[01;31m[Kdepth_callback[m[K, this, std::placeholders::_1)); //bind the callback function to the subscription
+      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:[m[K At global scope:
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:18:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   18 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/fusion_node.dir/build.make:76: CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fusion_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

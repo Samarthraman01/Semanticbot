@@ -1,0 +1,61 @@
+[0.008s] Invoking command in '/workspace/ros2_ws/build/semantic_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/semantic_fusion -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/semantic_fusion
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.297s] -- Detecting CXX compile features
+[0.297s] -- Detecting CXX compile features - done
+[0.301s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.364s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.415s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.443s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.446s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.497s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.499s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.544s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.554s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.563s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.571s] -- Looking for pthread.h
+[0.626s] -- Looking for pthread.h - found
+[0.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.676s] -- Found Threads: TRUE  
+[0.709s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.770s] -- Configuring done
+[0.788s] -- Generating done
+[0.796s] -- Build files have been written to: /workspace/ros2_ws/build/semantic_fusion
+[0.800s] Invoked command in '/workspace/ros2_ws/build/semantic_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/semantic_fusion -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/semantic_fusion
+[0.801s] Invoking command in '/workspace/ros2_ws/build/semantic_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/semantic_fusion -- -j4 -l4
+[0.827s] [ 50%] [32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o[0m
+[2.176s] [100%] [32m[1mLinking CXX executable fusion_node[0m
+[2.257s] [100%] Built target fusion_node
+[2.262s] Invoked command in '/workspace/ros2_ws/build/semantic_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/semantic_fusion -- -j4 -l4
+[2.267s] Invoking command in '/workspace/ros2_ws/build/semantic_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/semantic_fusion
+[2.269s] -- Install configuration: ""
+[2.270s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/lib/semantic_fusion/fusion_node
+[2.272s] -- Set runtime path of "/workspace/ros2_ws/install/semantic_fusion/lib/semantic_fusion/fusion_node" to ""
+[2.272s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/package_run_dependencies/semantic_fusion
+[2.274s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/parent_prefix_path/semantic_fusion
+[2.275s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/ament_prefix_path.sh
+[2.276s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/ament_prefix_path.dsv
+[2.277s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/path.sh
+[2.278s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/path.dsv
+[2.279s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.bash
+[2.280s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.sh
+[2.282s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.zsh
+[2.283s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.dsv
+[2.284s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/package.dsv
+[2.285s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/packages/semantic_fusion
+[2.286s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/cmake/semantic_fusionConfig.cmake
+[2.287s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/cmake/semantic_fusionConfig-version.cmake
+[2.288s] -- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/package.xml
+[2.290s] Invoked command in '/workspace/ros2_ws/build/semantic_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/semantic_fusion
