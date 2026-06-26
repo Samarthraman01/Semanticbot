@@ -33,7 +33,7 @@ CLASSES = ["chair", "desk", "monitor", "keyboard", "door", "cabinet",
 CLASS_COLORS = {
     "chair":    [1.0, 0.0, 0.0],   # red
     "desk":     [0.0, 1.0, 0.0],   # green
-    "monitor":  [0.0, 0.0, 1.0],   # blue
+    "monitor":  [0.0, 0.0, 1.0],   # blueyes 
     "keyboard": [1.0, 1.0, 0.0],   # yellow
     "door":     [1.0, 0.5, 0.0],   # orange
     "cabinet":  [0.5, 0.0, 1.0],   # purple

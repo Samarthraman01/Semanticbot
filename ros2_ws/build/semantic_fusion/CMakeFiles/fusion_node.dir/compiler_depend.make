@@ -711,8 +711,66 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp \
+  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__traits.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__traits.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp:
 
@@ -872,6 +930,8 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 
 /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
 
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
@@ -883,6 +943,8 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
@@ -1050,11 +1112,15 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
 
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/aarch64-linux-gnu/bits/timex.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -1145,6 +1211,8 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 /usr/include/c++/11/bits/unique_lock.h:
 
 /usr/include/aarch64-linux-gnu/bits/wchar.h:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp:
 
 /usr/include/c++/11/sstream:
 
@@ -1241,6 +1309,8 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
 /usr/include/stdint.h:
+
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp:
 
 /usr/include/c++/11/bits/erase_if.h:
 
@@ -1400,6 +1470,8 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 
 /usr/include/aarch64-linux-gnu/sys/types.h:
 
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__traits.hpp:
+
 /usr/include/c++/11/array:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
@@ -1472,6 +1544,8 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 
 /usr/include/aarch64-linux-gnu/bits/sigstksz.h:
 
+/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__traits.hpp:
+
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls.h:
@@ -1487,6 +1561,8 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 /usr/include/aarch64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/c++/11/bits/locale_conv.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
 
 /usr/include/c++/11/bits/std_function.h:
 
@@ -1801,6 +1877,8 @@ CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o: /workspace/ros2_ws/src/semanti
 /usr/include/c++/11/ext/atomicity.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
 /usr/include/c++/11/bits/list.tcc:
 

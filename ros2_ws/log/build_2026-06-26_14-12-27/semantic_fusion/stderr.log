@@ -1,0 +1,7 @@
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kvision_msgs/msg/detection2_d_array.hpp: No such file or directory
+    3 | #include [01;31m[K<vision_msgs/msg/detection2_d_array.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/fusion_node.dir/build.make:76: CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fusion_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
