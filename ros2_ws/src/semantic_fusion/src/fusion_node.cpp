@@ -4,6 +4,8 @@
 #include <vector>
 #include <fstream>
 #include <array>
+#include <sensor_msgs/msg/point_cloud2.hpp>
+#include <sensor_msgs/point_cloud2_iterator.hpp>
 
 class FusionNode : public rclcpp::Node
 { 
@@ -22,9 +24,12 @@ public:
       std::bind(&FusionNode::detection_callback, this, std::placeholders::_1)
     );
 
+    cloud_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/semantic/pointcloud", 10);
+
     RCLCPP_INFO(this->get_logger(), "Waiting for depth images...");
     load_poses("/workspace/data/Replica/office0/traj.txt");
   }
+
 
 private:
   // Camera parameters
@@ -34,8 +39,11 @@ private:
   const double CY_    = 339.5;
   const double SCALE_ = 6553.5;
 
+  //for camera poses 
   std::vector<std::vector<double>> poses_;
   int current_frame_ = 0;
+
+  std::vector<std::array<double, 3>> world_points_;
 
   // Depth callback — stores latest depth image
   void depth_callback(const sensor_msgs::msg::Image::SharedPtr msg)
@@ -91,13 +99,13 @@ private:
         double Yw = pose[4]*X + pose[5]*Y + pose[6]*Z  + pose[7];
         double Zw = pose[8]*X + pose[9]*Y + pose[10]*Z + pose[11];
 
-        RCLCPP_INFO(this->get_logger(),
-          "World point: Xw=%.2f Yw=%.2f Zw=%.2f",
-          Xw, Yw, Zw);
+        // store world point for publishing
+        world_points_.push_back({Xw, Yw, Zw});
       }
     }
 
     current_frame_++;
+    publish_cloud();
   }
 
   // Load camera poses from traj.txt
@@ -132,10 +140,50 @@ private:
       "Loaded %zu poses", poses_.size());
   }
 
+  void publish_cloud()
+  {
+    if(world_points_.empty()) return;
+
+    sensor_msgs::msg::PointCloud2 cloud_msg;
+    cloud_msg.header.stamp = this->now();
+    cloud_msg.header.frame_id = "map";
+    cloud_msg.height = 1;
+    cloud_msg.width = world_points_.size();
+    cloud_msg.is_dense = false;
+
+    sensor_msgs::PointCloud2Modifier modifier(cloud_msg);
+    modifier.setPointCloud2FieldsByString(2, "xyz", "rgb");
+    modifier.resize(world_points_.size());
+
+    sensor_msgs::PointCloud2Iterator<float> iter_x(cloud_msg, "x");
+    sensor_msgs::PointCloud2Iterator<float> iter_y(cloud_msg, "y");
+    sensor_msgs::PointCloud2Iterator<float> iter_z(cloud_msg, "z");
+
+    // Step 4 — write each point into the message
+    for(const auto & pt : world_points_)
+    {
+        *iter_x = pt[0];   // write X value
+        *iter_y = pt[1];   // write Y value
+        *iter_z = pt[2];   // write Z value
+
+        // move cursor to next point
+        ++iter_x;
+        ++iter_y;
+        ++iter_z;
+    }
+    cloud_pub_->publish(cloud_msg);
+    RCLCPP_INFO(this->get_logger(),
+        "Published cloud with %zu points",
+        world_points_.size());
+
+    world_points_.clear();
+  }
+
   // Member variables
   sensor_msgs::msg::Image::SharedPtr latest_depth_;
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr depth_sub_;
   rclcpp::Subscription<vision_msgs::msg::Detection2DArray>::SharedPtr detection_sub_;
+  rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr cloud_pub_;
 };
 
 int main(int argc, char * argv[])
