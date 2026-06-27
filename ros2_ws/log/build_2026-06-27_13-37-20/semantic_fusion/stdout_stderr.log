@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target fusion_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o[0m
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:[m[K In member function ‘[01m[Kvoid FusionNode::detection_callback(vision_msgs::msg::Detection2DArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:48:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct vision_msgs::msg::Detection2DArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct vision_msgs::msg::Detection2DArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdetection[m[K’; did you mean ‘[01m[Kdetections[m[K’?
+   48 |     for(const auto & det : msg->[01;31m[Kdetection[m[K)
+      |                                 [01;31m[K^~~~~~~~~[m[K
+      |                                 [32m[Kdetections[m[K
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:58:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kunit16_t[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint16_t[m[K’?
+   58 |       [01;31m[Kunit16_t[m[K raw_depth = ((unit16_t*)latest_depth_->data.data())[pixel_index];
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Kuint16_t[m[K
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:61:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kraw_depth[m[K’ was not declared in this scope
+   61 |       double d = [01;31m[Kraw_depth[m[K / SCALE;
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:67:33:[m[K [01;31m[Kerror: [m[K‘[01m[KFX[m[K’ was not declared in this scope; did you mean ‘[01m[KX[m[K’?
+   67 |       double X = (u - CX) * d / [01;31m[KFX[m[K;
+      |                                 [01;31m[K^~[m[K
+      |                                 [32m[KX[m[K
+gmake[2]: *** [CMakeFiles/fusion_node.dir/build.make:76: CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fusion_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
