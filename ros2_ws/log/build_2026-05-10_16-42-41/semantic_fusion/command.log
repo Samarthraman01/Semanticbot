@@ -1,0 +1,6 @@
+Invoking command in '/workspace/ros2_ws/build/semantic_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/semantic_fusion -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/semantic_fusion
+Invoked command in '/workspace/ros2_ws/build/semantic_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/semantic_fusion -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/semantic_fusion
+Invoking command in '/workspace/ros2_ws/build/semantic_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/semantic_fusion -- -j4 -l4
+Invoked command in '/workspace/ros2_ws/build/semantic_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/semantic_fusion -- -j4 -l4
+Invoking command in '/workspace/ros2_ws/build/semantic_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/semantic_fusion
+Invoked command in '/workspace/ros2_ws/build/semantic_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/semantic_fusion
