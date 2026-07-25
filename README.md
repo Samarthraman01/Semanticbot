@@ -107,4 +107,4 @@ ros2 run semantic_fusion fusion_node
 M.Sc. Electromobility Engineering — FAU Erlangen-Nürnberg
 Research Assistant — Siemens Healthineers
 
-[LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/Samarthraman01)
+[LinkedIn](https://www.linkedin.com/in/samarthghanate/) · [GitHub](https://github.com/Samarthraman01)
