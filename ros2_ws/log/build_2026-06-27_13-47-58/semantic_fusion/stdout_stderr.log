@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target fusion_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable fusion_node[0m
+[100%] Built target fusion_node
+-- Install configuration: ""
+-- Installing: /workspace/ros2_ws/install/semantic_fusion/lib/semantic_fusion/fusion_node
+-- Set runtime path of "/workspace/ros2_ws/install/semantic_fusion/lib/semantic_fusion/fusion_node" to ""
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/package_run_dependencies/semantic_fusion
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/parent_prefix_path/semantic_fusion
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/path.sh
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.bash
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.sh
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.zsh
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.dsv
+-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/package.dsv
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/packages/semantic_fusion
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/cmake/semantic_fusionConfig.cmake
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/cmake/semantic_fusionConfig-version.cmake
+-- Up-to-date: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/package.xml

@@ -22,6 +22,13 @@ public:
   }
 //----------------------------------------------------------------------------------------------
 private:
+  //camera parameters
+  const double FX = 600.0;
+  const double FY = 600.0;
+  const double CX = 599.5;
+  const double CY = 339.5;
+  const double SCALE = 6553.5;
+
   void depth_callback(const sensor_msgs::msg::Image::SharedPtr msg)
   {
     latest_depth_ = msg;
@@ -35,7 +42,39 @@ private:
     RCLCPP_INFO(this->get_logger(), "Detection recieved: %zu objects",
                                     msg->detections.size());
     
-    if (latest_depth_ == 0)
+    if (!latest_depth_)
+
+    
+
+    //loop through every detection
+    for(const auto & det : msg->detections)
+    {
+      //getting the center pixel of the boundin box
+      double u = det.bbox.center.position.x;
+      double v = det.bbox.center.position.y;
+
+      //getting the center position of the depth
+      int pixel_index = int(v)*latest_depth_->width + (int)u;
+
+      //raw depth value from image data
+      uint16_t raw_depth = ((uint16_t*)latest_depth_->data.data())[pixel_index];
+
+      //convert into meters 
+      double d = raw_depth / SCALE;
+
+      //skip the invalid depth
+      if(d <= 0.1 || d >= 8.0) continue;
+
+      //projection to 3D
+      double X = (u - CX) * d / FX;
+      double Y = (v - CY) * d / FY;
+      double Z = d;
+
+      RCLCPP_INFO(this->get_logger(), "3D point: X=%.2f Y=%.2f Z=%.2f", X, Y, Z);
+
+    }
+
+
     {
       RCLCPP_INFO(this->get_logger(), "No depth image recieved - skipping");
       return;
@@ -54,4 +93,4 @@ int main(int argc, char*argv[])
   rclcpp::shutdown();
 
   return 0;
-}
+};
