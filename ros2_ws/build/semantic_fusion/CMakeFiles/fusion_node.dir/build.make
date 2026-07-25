@@ -98,6 +98,12 @@ fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp
 fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
+fusion_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so
+fusion_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_fastrtps_cpp.so
+fusion_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_introspection_c.so
+fusion_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_introspection_cpp.so
+fusion_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_cpp.so
+fusion_node: /opt/ros/humble/lib/libvision_msgs__rosidl_generator_py.so
 fusion_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 fusion_node: /opt/ros/humble/lib/librcl.so
 fusion_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -131,6 +137,9 @@ fusion_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 fusion_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 fusion_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 fusion_node: /opt/ros/humble/lib/libtracetools.so
+fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 fusion_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 fusion_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 fusion_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -149,8 +158,12 @@ fusion_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c
 fusion_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 fusion_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 fusion_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+fusion_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+fusion_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+fusion_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+fusion_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+fusion_node: /opt/ros/humble/lib/libvision_msgs__rosidl_typesupport_c.so
+fusion_node: /opt/ros/humble/lib/libvision_msgs__rosidl_generator_c.so
 fusion_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 fusion_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 fusion_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -160,16 +173,11 @@ fusion_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 fusion_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 fusion_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 fusion_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-fusion_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-fusion_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-fusion_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-fusion_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-fusion_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-fusion_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 fusion_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 fusion_node: /opt/ros/humble/lib/librcpputils.so
 fusion_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 fusion_node: /opt/ros/humble/lib/librcutils.so
+fusion_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 fusion_node: CMakeFiles/fusion_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/ros2_ws/build/semantic_fusion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fusion_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fusion_node.dir/link.txt --verbose=$(VERBOSE)

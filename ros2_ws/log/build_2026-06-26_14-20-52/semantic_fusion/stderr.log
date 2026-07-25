@@ -1,0 +1,8 @@
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:[m[K In member function ‘[01m[Kvoid FusionNode::depth_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:27:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kdepth_sub_[m[K’?
+   27 |     latest_depth_ = [01;31m[Kdepth_sub[m[K;
+      |                     [01;31m[K^~~~~~~~~[m[K
+      |                     [32m[Kdepth_sub_[m[K
+gmake[2]: *** [CMakeFiles/fusion_node.dir/build.make:76: CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fusion_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
