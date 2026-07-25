@@ -1,0 +1,15 @@
+# Data — too large for GitHub
+data/
+models/
+*.ply
+*.zip
+*.bag
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+
+# Model weights
+*.pt
+*.onnx
