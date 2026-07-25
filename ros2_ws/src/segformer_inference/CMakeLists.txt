@@ -9,6 +9,10 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
+# ONNX Runtime
+set(ONNXRUNTIME_ROOT /opt/onnxruntime)
+include_directories(${ONNXRUNTIME_ROOT}/include)
+link_directories(${ONNXRUNTIME_ROOT}/lib)
 
 add_executable(inference_node src/inference_node.cpp)
 
@@ -16,6 +20,9 @@ ament_target_dependencies(inference_node
     rclcpp
     sensor_msgs
     cv_bridge
+)
+target_link_libraries(inference_node
+    onnxruntime
 )
 
 install(TARGETS inference_node
