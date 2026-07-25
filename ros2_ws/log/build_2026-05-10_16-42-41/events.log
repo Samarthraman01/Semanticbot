@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (semantic_fusion) JobQueued: {'identifier': 'semantic_fusion', 'dependencies': OrderedDict()}
+[0.000228] (semantic_fusion) JobStarted: {'identifier': 'semantic_fusion'}
+[0.005722] (semantic_fusion) JobProgress: {'identifier': 'semantic_fusion', 'progress': 'cmake'}
+[0.006849] (semantic_fusion) Command: {'cmd': ['/usr/bin/cmake', '/workspace/ros2_ws/src/semantic_fusion', '-DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/semantic_fusion'], 'cwd': '/workspace/ros2_ws/build/semantic_fusion', 'env': OrderedDict([('HOSTNAME', 'd0cc018619d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/ros2_ws/src/semantic_fusion'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/ros2_ws/build/semantic_fusion'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098919] (-) TimerEvent: {}
+[0.104683] (semantic_fusion) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.174966] (semantic_fusion) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.182579] (semantic_fusion) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199898] (-) TimerEvent: {}
+[0.230452] (semantic_fusion) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.235548] (semantic_fusion) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.235846] (semantic_fusion) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.236518] (semantic_fusion) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.239481] (semantic_fusion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.292004] (semantic_fusion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.297150] (semantic_fusion) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.297570] (semantic_fusion) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.297899] (semantic_fusion) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.300741] (-) TimerEvent: {}
+[0.301582] (semantic_fusion) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.363888] (semantic_fusion) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.401820] (-) TimerEvent: {}
+[0.416159] (semantic_fusion) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.443793] (semantic_fusion) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.447021] (semantic_fusion) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.451984] (semantic_fusion) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.461506] (semantic_fusion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.470877] (semantic_fusion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.497537] (semantic_fusion) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.499677] (semantic_fusion) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.502687] (-) TimerEvent: {}
+[0.544018] (semantic_fusion) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.551863] (semantic_fusion) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.563705] (semantic_fusion) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.571648] (semantic_fusion) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.604705] (-) TimerEvent: {}
+[0.626650] (semantic_fusion) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.627635] (semantic_fusion) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.675991] (semantic_fusion) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.676872] (semantic_fusion) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.705792] (-) TimerEvent: {}
+[0.709832] (semantic_fusion) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.770580] (semantic_fusion) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.788767] (semantic_fusion) StdoutLine: {'line': b'-- Generating done\n'}
+[0.796712] (semantic_fusion) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros2_ws/build/semantic_fusion\n'}
+[0.800631] (semantic_fusion) CommandEnded: {'returncode': 0}
+[0.801018] (semantic_fusion) JobProgress: {'identifier': 'semantic_fusion', 'progress': 'build'}
+[0.801832] (semantic_fusion) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/semantic_fusion', '--', '-j4', '-l4'], 'cwd': '/workspace/ros2_ws/build/semantic_fusion', 'env': OrderedDict([('HOSTNAME', 'd0cc018619d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/ros2_ws/src/semantic_fusion'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/ros2_ws/build/semantic_fusion'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.806719] (-) TimerEvent: {}
+[0.828057] (semantic_fusion) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o\x1b[0m\n'}
+[0.907754] (-) TimerEvent: {}
+[1.008734] (-) TimerEvent: {}
+[1.109726] (-) TimerEvent: {}
+[1.212732] (-) TimerEvent: {}
+[1.313725] (-) TimerEvent: {}
+[1.414721] (-) TimerEvent: {}
+[1.515722] (-) TimerEvent: {}
+[1.616728] (-) TimerEvent: {}
+[1.717724] (-) TimerEvent: {}
+[1.818729] (-) TimerEvent: {}
+[1.919727] (-) TimerEvent: {}
+[2.020729] (-) TimerEvent: {}
+[2.121730] (-) TimerEvent: {}
+[2.176530] (semantic_fusion) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fusion_node\x1b[0m\n'}
+[2.222744] (-) TimerEvent: {}
+[2.257281] (semantic_fusion) StdoutLine: {'line': b'[100%] Built target fusion_node\n'}
+[2.262366] (semantic_fusion) CommandEnded: {'returncode': 0}
+[2.263375] (semantic_fusion) JobProgress: {'identifier': 'semantic_fusion', 'progress': 'install'}
+[2.267018] (semantic_fusion) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/ros2_ws/build/semantic_fusion'], 'cwd': '/workspace/ros2_ws/build/semantic_fusion', 'env': OrderedDict([('HOSTNAME', 'd0cc018619d8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/ros2_ws/src/semantic_fusion'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/ros2_ws/build/semantic_fusion'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.269864] (semantic_fusion) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.270635] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/lib/semantic_fusion/fusion_node\n'}
+[2.272511] (semantic_fusion) StdoutLine: {'line': b'-- Set runtime path of "/workspace/ros2_ws/install/semantic_fusion/lib/semantic_fusion/fusion_node" to ""\n'}
+[2.273148] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/package_run_dependencies/semantic_fusion\n'}
+[2.274560] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/parent_prefix_path/semantic_fusion\n'}
+[2.275801] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/ament_prefix_path.sh\n'}
+[2.276795] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/ament_prefix_path.dsv\n'}
+[2.277850] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/path.sh\n'}
+[2.278723] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/environment/path.dsv\n'}
+[2.279918] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.bash\n'}
+[2.281002] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.sh\n'}
+[2.282108] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.zsh\n'}
+[2.283000] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/local_setup.dsv\n'}
+[2.284103] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/package.dsv\n'}
+[2.285289] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/ament_index/resource_index/packages/semantic_fusion\n'}
+[2.286524] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/cmake/semantic_fusionConfig.cmake\n'}
+[2.287596] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/cmake/semantic_fusionConfig-version.cmake\n'}
+[2.288450] (semantic_fusion) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/semantic_fusion/share/semantic_fusion/package.xml\n'}
+[2.290308] (semantic_fusion) CommandEnded: {'returncode': 0}
+[2.308301] (semantic_fusion) JobEnded: {'identifier': 'semantic_fusion', 'rc': 0}
+[2.309029] (-) EventReactorShutdown: {}

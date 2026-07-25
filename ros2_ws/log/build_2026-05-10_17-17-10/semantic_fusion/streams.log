@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/workspace/ros2_ws/build/semantic_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/semantic_fusion -- -j4 -l4
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target fusion_node[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o[0m
+[0.940s] [01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:16:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[0.941s]    16 | }
+[0.941s]       |  [01;31m[K^[m[K
+[0.941s]       |  [32m[K;[m[K
+[0.945s] [01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:[m[K In constructor ‘[01m[KFusionNode::FusionNode()[m[K’:
+[0.946s] [01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_subscriber_[m[K’ was not declared in this scope
+[0.946s]    11 |     [01;31m[Kdepth_subscriber_[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+[0.947s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.947s] [01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:14:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth_callback[m[K’ is not a member of ‘[01m[KFusionNode[m[K’
+[0.947s]    14 |       std::bind(&FusionNode::[01;31m[Kdepth_callback[m[K, this, std::placeholders::_1)); //bind the callback function to the subscription
+[0.947s]       |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.947s] [01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:[m[K At global scope:
+[0.947s] [01m[K/workspace/ros2_ws/src/semantic_fusion/src/fusion_node.cpp:18:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[0.947s]    18 | [01;31m[Kprivate[m[K:
+[0.948s]       | [01;31m[K^~~~~~~[m[K
+[1.099s] gmake[2]: *** [CMakeFiles/fusion_node.dir/build.make:76: CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o] Error 1
+[1.099s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fusion_node.dir/all] Error 2
+[1.099s] gmake: *** [Makefile:146: all] Error 2
+[1.100s] Invoked command in '/workspace/ros2_ws/build/semantic_fusion' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/semantic_fusion -- -j4 -l4
