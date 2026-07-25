@@ -7,9 +7,9 @@
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <sensor_msgs/point_cloud2_iterator.hpp>
 
-class FusionNode : public rclcpp::Node
+class FusionNode : public rclcpp::Node //this is the class we created
 { 
-public:
+public: //we create the constructors just as __init__ in python to initialize things
   FusionNode() : Node("fusion_node")
   {
     RCLCPP_INFO(this->get_logger(), "Fusion node has started");
