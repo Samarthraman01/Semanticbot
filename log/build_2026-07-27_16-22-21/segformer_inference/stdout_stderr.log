@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/inference_node.dir/src/inference_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable inference_node[0m
+[100%] Built target inference_node
+-- Install configuration: ""
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/lib/segformer_inference/inference_node
+-- Set runtime path of "/home/samarthws/Semanticbot/install/segformer_inference/lib/segformer_inference/inference_node" to ""
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/ament_index/resource_index/package_run_dependencies/segformer_inference
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/ament_index/resource_index/parent_prefix_path/segformer_inference
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/environment/ament_prefix_path.sh
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/environment/ament_prefix_path.dsv
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/environment/path.sh
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/environment/path.dsv
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/local_setup.bash
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/local_setup.sh
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/local_setup.zsh
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/local_setup.dsv
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.dsv
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/ament_index/resource_index/packages/segformer_inference
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/cmake/segformer_inferenceConfig.cmake
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/cmake/segformer_inferenceConfig-version.cmake
+-- Installing: /home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.xml

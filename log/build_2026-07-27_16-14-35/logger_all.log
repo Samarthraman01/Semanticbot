@@ -1,0 +1,198 @@
+[0.473s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'segformer_inference']
+[0.473s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['segformer_inference'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cb84be76470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cb84bfffa30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cb84bfffa30>>, mixin_verb=('build',))
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.556s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samarthws/Semanticbot'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'cmake'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'python'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['python_setup_py']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'python_setup_py'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) ignored
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) ignored
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) ignored
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extension 'colcon_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extensions ['colcon_meta']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/segformer_inference) by extension 'ros'
+[0.578s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/segformer_inference' with type 'ros.ament_cmake' and name 'segformer_inference'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/semantic_fusion) by extension 'ros'
+[0.579s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/semantic_fusion' with type 'ros.ament_cmake' and name 'semantic_fusion'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.614s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'semantic_fusion' in 'ros2_ws/src/semantic_fusion'
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.637s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/samarthws/ros2_ws/install/tf_static_relay' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.641s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/samarthws/ros2_ws/install
+[0.642s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/samarthws/install
+[0.644s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 252 installed packages in /opt/ros/humble
+[0.644s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'cmake_target' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'cmake_clean_cache' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'cmake_clean_first' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'cmake_force_configure' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'ament_cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'catkin_cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'segformer_inference' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.771s] DEBUG:colcon.colcon_core.verb:Building package 'segformer_inference' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samarthws/Semanticbot/build/segformer_inference', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samarthws/Semanticbot/install/segformer_inference', 'merge_install': False, 'path': '/home/samarthws/Semanticbot/ros2_ws/src/segformer_inference', 'symlink_install': False, 'test_result_base': None}
+[0.771s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.772s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.772s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samarthws/Semanticbot/ros2_ws/src/segformer_inference' with build type 'ament_cmake'
+[0.772s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samarthws/Semanticbot/ros2_ws/src/segformer_inference'
+[0.778s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samarthws/Semanticbot/build/segformer_inference': CMAKE_PREFIX_PATH=/home/samarthws/ros2_ws/install/yolo_common:/home/samarthws/ros2_ws/install/shs_worldmodel:/home/samarthws/ros2_ws/install/vision_msgs_rviz_plugins:/home/samarthws/ros2_ws/install/ros2_data_interfaces:/home/samarthws/ros2_ws/install/vision_msgs:/home/samarthws/ros2_ws/install/shs_custom_msgs:/home/samarthws/ros2_ws/install/yolo_seg:/home/samarthws/ros2_ws/install/yolo_human_pose:/home/samarthws/ros2_ws/install/vision_msgs_test:/home/samarthws/ros2_ws/install/qos_republisher:/home/samarthws/install/mapping_setup:/home/samarthws/install/rtabmap_python:/home/samarthws/install/rtab_launch:/home/samarthws/install/ros_tcp_endpoint:/opt/ros/humble:/home/samarthws/ros2_ws/install/tf_static_relay:/home/samarthws/ros2_ws/install/ros_tcp_endpoint:/home/samarthws/ros2_ws/install/pointcloud_from_rgbd:/home/samarthws/ros2_ws/install/nav_stack:/home/samarthws/ros2_ws/install/human_detector_cpp:/home/samarthws/ros2_ws/install/dual_rgbd_pointcloud:/home/samarthws/ros2_ws/install/custom_msg:/home/samarthws/ros2_ws/install/cloud_ground_removal:/home/samarthws/ros2_ws/install/cath_lab_msgs:/home/samarthws/install/rtabmap_launch:/home/samarthws/install/rtabmap_examples:/home/samarthws/install/rtabmap_demos:/home/samarthws/install/rtabmap_viz:/home/samarthws/install/rtabmap_slam:/home/samarthws/install/rtabmap_odom:/home/samarthws/install/rtabmap_util:/home/samarthws/install/rtabmap_sync:/home/samarthws/install/rtabmap_rviz_plugins:/home/samarthws/install/rtabmap_conversions:/home/samarthws/install/rtabmap_msgs:/home/samarthws/install/rtabmap:/home/samarthws/install/pointcloud_from_rgbd:/home/samarthws/install/human_detector_cpp:/home/samarthws/install/camera_point_cloud /usr/bin/cmake /home/samarthws/Semanticbot/ros2_ws/src/segformer_inference -DCMAKE_INSTALL_PREFIX=/home/samarthws/Semanticbot/install/segformer_inference
+[10.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samarthws/Semanticbot/build/segformer_inference' returned '0': CMAKE_PREFIX_PATH=/home/samarthws/ros2_ws/install/yolo_common:/home/samarthws/ros2_ws/install/shs_worldmodel:/home/samarthws/ros2_ws/install/vision_msgs_rviz_plugins:/home/samarthws/ros2_ws/install/ros2_data_interfaces:/home/samarthws/ros2_ws/install/vision_msgs:/home/samarthws/ros2_ws/install/shs_custom_msgs:/home/samarthws/ros2_ws/install/yolo_seg:/home/samarthws/ros2_ws/install/yolo_human_pose:/home/samarthws/ros2_ws/install/vision_msgs_test:/home/samarthws/ros2_ws/install/qos_republisher:/home/samarthws/install/mapping_setup:/home/samarthws/install/rtabmap_python:/home/samarthws/install/rtab_launch:/home/samarthws/install/ros_tcp_endpoint:/opt/ros/humble:/home/samarthws/ros2_ws/install/tf_static_relay:/home/samarthws/ros2_ws/install/ros_tcp_endpoint:/home/samarthws/ros2_ws/install/pointcloud_from_rgbd:/home/samarthws/ros2_ws/install/nav_stack:/home/samarthws/ros2_ws/install/human_detector_cpp:/home/samarthws/ros2_ws/install/dual_rgbd_pointcloud:/home/samarthws/ros2_ws/install/custom_msg:/home/samarthws/ros2_ws/install/cloud_ground_removal:/home/samarthws/ros2_ws/install/cath_lab_msgs:/home/samarthws/install/rtabmap_launch:/home/samarthws/install/rtabmap_examples:/home/samarthws/install/rtabmap_demos:/home/samarthws/install/rtabmap_viz:/home/samarthws/install/rtabmap_slam:/home/samarthws/install/rtabmap_odom:/home/samarthws/install/rtabmap_util:/home/samarthws/install/rtabmap_sync:/home/samarthws/install/rtabmap_rviz_plugins:/home/samarthws/install/rtabmap_conversions:/home/samarthws/install/rtabmap_msgs:/home/samarthws/install/rtabmap:/home/samarthws/install/pointcloud_from_rgbd:/home/samarthws/install/human_detector_cpp:/home/samarthws/install/camera_point_cloud /usr/bin/cmake /home/samarthws/Semanticbot/ros2_ws/src/segformer_inference -DCMAKE_INSTALL_PREFIX=/home/samarthws/Semanticbot/install/segformer_inference
+[10.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samarthws/Semanticbot/build/segformer_inference': CMAKE_PREFIX_PATH=/home/samarthws/ros2_ws/install/yolo_common:/home/samarthws/ros2_ws/install/shs_worldmodel:/home/samarthws/ros2_ws/install/vision_msgs_rviz_plugins:/home/samarthws/ros2_ws/install/ros2_data_interfaces:/home/samarthws/ros2_ws/install/vision_msgs:/home/samarthws/ros2_ws/install/shs_custom_msgs:/home/samarthws/ros2_ws/install/yolo_seg:/home/samarthws/ros2_ws/install/yolo_human_pose:/home/samarthws/ros2_ws/install/vision_msgs_test:/home/samarthws/ros2_ws/install/qos_republisher:/home/samarthws/install/mapping_setup:/home/samarthws/install/rtabmap_python:/home/samarthws/install/rtab_launch:/home/samarthws/install/ros_tcp_endpoint:/opt/ros/humble:/home/samarthws/ros2_ws/install/tf_static_relay:/home/samarthws/ros2_ws/install/ros_tcp_endpoint:/home/samarthws/ros2_ws/install/pointcloud_from_rgbd:/home/samarthws/ros2_ws/install/nav_stack:/home/samarthws/ros2_ws/install/human_detector_cpp:/home/samarthws/ros2_ws/install/dual_rgbd_pointcloud:/home/samarthws/ros2_ws/install/custom_msg:/home/samarthws/ros2_ws/install/cloud_ground_removal:/home/samarthws/ros2_ws/install/cath_lab_msgs:/home/samarthws/install/rtabmap_launch:/home/samarthws/install/rtabmap_examples:/home/samarthws/install/rtabmap_demos:/home/samarthws/install/rtabmap_viz:/home/samarthws/install/rtabmap_slam:/home/samarthws/install/rtabmap_odom:/home/samarthws/install/rtabmap_util:/home/samarthws/install/rtabmap_sync:/home/samarthws/install/rtabmap_rviz_plugins:/home/samarthws/install/rtabmap_conversions:/home/samarthws/install/rtabmap_msgs:/home/samarthws/install/rtabmap:/home/samarthws/install/pointcloud_from_rgbd:/home/samarthws/install/human_detector_cpp:/home/samarthws/install/camera_point_cloud /usr/bin/cmake --build /home/samarthws/Semanticbot/build/segformer_inference -- -j28 -l28
+[11.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samarthws/Semanticbot/build/segformer_inference' returned '2': CMAKE_PREFIX_PATH=/home/samarthws/ros2_ws/install/yolo_common:/home/samarthws/ros2_ws/install/shs_worldmodel:/home/samarthws/ros2_ws/install/vision_msgs_rviz_plugins:/home/samarthws/ros2_ws/install/ros2_data_interfaces:/home/samarthws/ros2_ws/install/vision_msgs:/home/samarthws/ros2_ws/install/shs_custom_msgs:/home/samarthws/ros2_ws/install/yolo_seg:/home/samarthws/ros2_ws/install/yolo_human_pose:/home/samarthws/ros2_ws/install/vision_msgs_test:/home/samarthws/ros2_ws/install/qos_republisher:/home/samarthws/install/mapping_setup:/home/samarthws/install/rtabmap_python:/home/samarthws/install/rtab_launch:/home/samarthws/install/ros_tcp_endpoint:/opt/ros/humble:/home/samarthws/ros2_ws/install/tf_static_relay:/home/samarthws/ros2_ws/install/ros_tcp_endpoint:/home/samarthws/ros2_ws/install/pointcloud_from_rgbd:/home/samarthws/ros2_ws/install/nav_stack:/home/samarthws/ros2_ws/install/human_detector_cpp:/home/samarthws/ros2_ws/install/dual_rgbd_pointcloud:/home/samarthws/ros2_ws/install/custom_msg:/home/samarthws/ros2_ws/install/cloud_ground_removal:/home/samarthws/ros2_ws/install/cath_lab_msgs:/home/samarthws/install/rtabmap_launch:/home/samarthws/install/rtabmap_examples:/home/samarthws/install/rtabmap_demos:/home/samarthws/install/rtabmap_viz:/home/samarthws/install/rtabmap_slam:/home/samarthws/install/rtabmap_odom:/home/samarthws/install/rtabmap_util:/home/samarthws/install/rtabmap_sync:/home/samarthws/install/rtabmap_rviz_plugins:/home/samarthws/install/rtabmap_conversions:/home/samarthws/install/rtabmap_msgs:/home/samarthws/install/rtabmap:/home/samarthws/install/pointcloud_from_rgbd:/home/samarthws/install/human_detector_cpp:/home/samarthws/install/camera_point_cloud /usr/bin/cmake --build /home/samarthws/Semanticbot/build/segformer_inference -- -j28 -l28
+[11.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(segformer_inference)
+[11.105s] Level 1:colcon.colcon_core.environment:checking '/home/samarthws/Semanticbot/install/segformer_inference' for CMake module files
+[11.105s] Level 1:colcon.colcon_core.environment:checking '/home/samarthws/Semanticbot/install/segformer_inference' for CMake config files
+[11.106s] Level 1:colcon.colcon_core.environment:checking '/home/samarthws/Semanticbot/install/segformer_inference/bin'
+[11.106s] Level 1:colcon.colcon_core.environment:checking '/home/samarthws/Semanticbot/install/segformer_inference/lib/pkgconfig/segformer_inference.pc'
+[11.106s] Level 1:colcon.colcon_core.environment:checking '/home/samarthws/Semanticbot/install/segformer_inference/lib/python3.10/site-packages'
+[11.106s] Level 1:colcon.colcon_core.environment:checking '/home/samarthws/Semanticbot/install/segformer_inference/bin'
+[11.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.ps1'
+[11.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.dsv'
+[11.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.sh'
+[11.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.bash'
+[11.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.zsh'
+[11.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samarthws/Semanticbot/install/segformer_inference/share/colcon-core/packages/segformer_inference)
+[11.120s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.120s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.120s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[11.120s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.170s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.193s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.193s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samarthws/Semanticbot/install/local_setup.ps1'
+[11.195s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samarthws/Semanticbot/install/_local_setup_util_ps1.py'
+[11.196s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samarthws/Semanticbot/install/setup.ps1'
+[11.197s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samarthws/Semanticbot/install/local_setup.sh'
+[11.198s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samarthws/Semanticbot/install/_local_setup_util_sh.py'
+[11.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samarthws/Semanticbot/install/setup.sh'
+[11.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samarthws/Semanticbot/install/local_setup.bash'
+[11.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samarthws/Semanticbot/install/setup.bash'
+[11.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samarthws/Semanticbot/install/local_setup.zsh'
+[11.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samarthws/Semanticbot/install/setup.zsh'

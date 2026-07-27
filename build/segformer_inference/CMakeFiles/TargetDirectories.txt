@@ -1,0 +1,10 @@
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/uninstall.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/segformer_inference_uninstall.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/inference_node.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/test.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/edit_cache.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/rebuild_cache.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/list_install_components.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/install.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/install/local.dir
+/home/samarthws/Semanticbot/build/segformer_inference/CMakeFiles/install/strip.dir

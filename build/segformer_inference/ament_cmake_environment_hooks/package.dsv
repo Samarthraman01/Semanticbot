@@ -1,0 +1,4 @@
+source;share/segformer_inference/local_setup.bash
+source;share/segformer_inference/local_setup.dsv
+source;share/segformer_inference/local_setup.sh
+source;share/segformer_inference/local_setup.zsh

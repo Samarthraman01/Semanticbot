@@ -1,0 +1,16 @@
+/home/samarthws/Semanticbot/install/segformer_inference/lib/segformer_inference/inference_node
+/home/samarthws/Semanticbot/install/segformer_inference/share/ament_index/resource_index/package_run_dependencies/segformer_inference
+/home/samarthws/Semanticbot/install/segformer_inference/share/ament_index/resource_index/parent_prefix_path/segformer_inference
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/environment/ament_prefix_path.sh
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/environment/ament_prefix_path.dsv
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/environment/path.sh
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/environment/path.dsv
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/local_setup.bash
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/local_setup.sh
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/local_setup.zsh
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/local_setup.dsv
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.dsv
+/home/samarthws/Semanticbot/install/segformer_inference/share/ament_index/resource_index/packages/segformer_inference
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/cmake/segformer_inferenceConfig.cmake
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/cmake/segformer_inferenceConfig-version.cmake
+/home/samarthws/Semanticbot/install/segformer_inference/share/segformer_inference/package.xml
