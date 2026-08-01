@@ -20,7 +20,14 @@ SemanticBot builds a queryable semantic 3D map of an indoor environment. Every p
 
 ---
 
-## Architecture
+## Live Demo — Real-Time Semantic Segmentation
+
+![SemanticBot Segmentation Demo](outputs/segmented.png)
+
+*Top: Unity synthetic hospital scene (RGB input from ROS 2 camera topic). Bottom: SegFormer-B2 semantic segmentation mask — 150-class pixel-level understanding running in real-time via C++ ONNX Runtime inference node.*
+
+---
+
 ## Architecture
 
 ```mermaid
@@ -35,9 +42,15 @@ flowchart TD
 
     E[🧠 clip_embeddings.py\nOpenAI CLIP encodes each detection\n→ 512-dim language fingerprint per object\nsaved to semantic_map.pkl] --> F
 
-    F[🔎 query_map.py\ntext query → CLIP text encoding\n→ cosine similarity search\n→ 3D location highlighted in Open3D] 
+    F[🔎 query_map.py\ntext query → CLIP text encoding\n→ cosine similarity search\n→ 3D location highlighted in Open3D]
 
     D --> G[⚙️ fusion_node.cpp\nC++ ROS 2 node\ndepth + detections → world 3D points\npublishes /semantic/pointcloud]
+
+    H[🎮 Unity Scene\nSynthetic hospital environment\nROS-TCP-Connector] --> I
+
+    I[🧠 inference_node.cpp\nC++ ONNX Runtime\nSegFormer-B2 inference\n2 FPS on CPU] --> J
+
+    J[📡 /segmentation/mask\nColour-coded pixel mask\n150 semantic classes\nRViz2 visualisation]
 
     style A fill:#2d6a4f,color:#fff
     style B fill:#1d3557,color:#fff
@@ -46,6 +59,9 @@ flowchart TD
     style E fill:#b5451b,color:#fff
     style F fill:#b5451b,color:#fff
     style G fill:#1d3557,color:#fff
+    style H fill:#2d6a4f,color:#fff
+    style I fill:#1d3557,color:#fff
+    style J fill:#6a0572,color:#fff
 ```
 
 ---
@@ -57,20 +73,49 @@ flowchart TD
 | Robot middleware | ROS 2 Humble |
 | Object detection | YOLO-World (open-vocabulary) |
 | Vision-language model | OpenAI CLIP (ViT-B/32) |
+| Semantic segmentation | SegFormer-B2 (ADE20K, 150 classes) |
+| Inference engine | ONNX Runtime (C++) |
 | 3D processing | Open3D |
 | Neural network framework | PyTorch 2.2 + Apple MPS |
-| C++ perception node | rclcpp, sensor_msgs, vision_msgs |
+| C++ perception node | rclcpp, sensor_msgs, cv_bridge |
+| Synthetic environment | Unity + ROS-TCP-Connector |
 | Dataset | Replica (Meta Reality Labs) |
-| Environment | Docker + Ubuntu 22.04 |
+| Environment | Docker + Ubuntu 22.04 / WSL |
 
 ---
 
 ## Results
 
+### Semantic 3D Mapping
 - 688 objects detected and stored across one indoor office scene
 - Natural language queries work for both direct and indirect descriptions
-- C++ ROS 2 fusion node publishes semantic point clouds on /semantic/pointcloud
+- C++ ROS 2 fusion node publishes semantic point clouds on `/semantic/pointcloud`
 - Runs on Apple M2 Pro with MPS GPU acceleration — no NVIDIA GPU required
+
+### SegFormer Inference Node
+
+| Model | Export | Hardware | FPS | Size | mIoU |
+|-------|--------|----------|-----|------|------|
+| SegFormer-B2 | PyTorch FP32 | M2 CPU | 1.3 | 105MB | 0.350 |
+| SegFormer-B2 | ONNX FP32 | M2 CPU | 2.3 | 105MB | 0.350 |
+| SegFormer-B2 | ONNX INT8 (dynamic) | M2 CPU | 1.0 | 29MB | 0.346 |
+
+*5× mIoU improvement over U-Net baseline (0.069 → 0.350)*
+
+---
+
+## Packages
+
+ros2_ws/src/
+segformer_inference/ ← C++ ONNX Runtime inference node
+semantic_fusion/ ← 3D semantic mapping node
+scripts/
+frame_reader.py ← Replica dataset reader
+detect_objects.py ← YOLO-World open-vocabulary detection
+clip_embeddings.py ← CLIP semantic embeddings
+query_map.py ← natural language 3D queries
+outputs/
+segmented.png ← segmentation demo
 
 ---
 
@@ -97,6 +142,12 @@ docker run -it --rm -v $(pwd):/workspace ros:humble bash
 source /opt/ros/humble/setup.bash
 cd /workspace/ros2_ws && colcon build
 ros2 run semantic_fusion fusion_node
+
+# Run SegFormer inference node (WSL / Ubuntu)
+cd ros2_ws
+colcon build --packages-select segformer_inference
+source install/setup.bash
+ros2 run segformer_inference inference_node
 ```
 
 ---
